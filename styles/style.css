@@ -36,6 +36,11 @@
   font-size: 18px;
   font-weight: normal;
 }
+.font-style4 {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
 .header {
   height: 100vh;
   min-height: 600px;
@@ -46,7 +51,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.header__logo {
+.header_logo {
   width: 183px;
   height: 32px;
 }
@@ -55,7 +60,7 @@
   top: 30px;
   left: 64px;
 }
-.header__title {
+.header__title {    /* ????????? */
   width: 730px;
   margin: 0 0 0 64px;
   font-size: 102px;
@@ -99,7 +104,6 @@
   justify-content: space-between;
   top: 100px;
   bottom: 100px;
-  margin-top: 100px;
   width: 80%;
   margin: 100px auto 0;
 }
@@ -142,8 +146,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: left;
-  align-items: baseline;
-  margin: 0 auto 0;
+  margin: 0 auto 100px;
   width: 1100px;
 }
 .digits__table_cell {
@@ -179,19 +182,13 @@
   height: 637px;
 }
 .subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
   text-align: center;
   margin: 0;
 }
 .feynman__link {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
   position: absolute;
-  right: 0;
-  margin-right: 48px;
+  right: 48px;
+  top: 50%;
 }
 .kaufman {
   background-color: #1f1f1f;
@@ -229,7 +226,6 @@
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;
   margin-top: 80px;
 }
 .table__heading_heme_dark {
