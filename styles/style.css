@@ -47,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.header_logo {
+.header__logo {
   width: 183px;
   height: 32px;
 }
