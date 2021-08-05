@@ -1,8 +1,8 @@
-/* * {
+* {
   outline-width: 1px;
   outline-style: solid;
   outline-color: red;
-} */
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -68,15 +68,13 @@
   z-index: 1;
 }
 .description {
-  margin-top: 100px;
+  margin: 100px auto;
 }
 .two-columns {
-  display: flex;
-  justify-content: space-between;
-  top: 100px;
-  bottom: 100px;
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .two-columns__brief {
   width: 175px;
@@ -139,13 +137,24 @@
   text-align: center;
 }
 .video {
-  margin: 100px auto 0;
+  margin: 100px auto -50px;
 }
 .video__iframes {
   margin: 50px auto 0;
+  display: flex;
+}
+.video__iframe {
+  margin: 0 20px 0 auto;
+}
+.video__iframe:last-of-type {
+  margin: 0 auto 0 0;
+}
+.oakley {
+  background: #f2f2f2;
+  padding-top: 160px;
 }
 .digits {
-  margin: 100px auto;
+  margin: 0 auto 100px;
 }
 .section-title {
   width: 60%;
@@ -164,6 +173,49 @@
   font-size: 24px;
   font-weight: normal;
   z-index: 2;
+}
+.khan{
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  padding: 105px 0 0;
+}
+.khan__container {
+  width: 80%;
+  margin: 0 auto 0;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 0 50px;
+}
+.khan__quote{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 36px;
+}
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 68px;
+}
+.khan__quote{
+  width: 790px
 }
 .table {
   display: flex;
