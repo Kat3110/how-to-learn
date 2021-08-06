@@ -3,9 +3,12 @@
   color: #fff;
   min-height: 350px;
 }
-.footer__author {
-  margin: 18px 0 18px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
- }
+ ul {
+  padding: 0;
+  margin: 0;
+}
+.logo_place_footer {
+  width: 182px;
+  height: 35px;
+  margin-bottom: auto;
+}

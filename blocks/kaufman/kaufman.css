@@ -6,14 +6,3 @@
   color: #fff;
   z-index: 0;
 }
-.kaufman__triangle {
-  position: absolute;
-  width: 877px;
-  height: 877px;
-  right: -210px;
-  top: 0;
-  z-index: -1;
-  background: url(../images/kaufman-triangle.svg) no-repeat 0 0;
-  background-size: 100%;
-  animation: rotation 20s linear infinite;
-}
