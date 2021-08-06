@@ -1,0 +1,11 @@
+.footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  min-height: 350px;
+}
+.footer__author {
+  margin: 18px 0 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+ }
