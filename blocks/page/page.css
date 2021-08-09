@@ -5,9 +5,3 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #000;
 }
-.fade {
-  opacity: 1;
-}
-.fade:hover {
-  opacity: 0.6;
-}
