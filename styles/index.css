@@ -726,7 +726,7 @@ template {
   right: -210px;
   top: 0;
   z-index: -1;
-  background: url(../../../images/kaufman-triangle.svg) no-repeat 0 0;
+  background: url(../images/kaufman-triangle.svg) no-repeat 0 0;
   background-size: 100%;
 }
 .resources{
